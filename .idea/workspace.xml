@@ -93,6 +93,8 @@
       <workItem from="1675233019679" duration="71000" />
       <workItem from="1675384749565" duration="392000" />
       <workItem from="1675385897425" duration="1636000" />
+      <workItem from="1675641855609" duration="785000" />
+      <workItem from="1675729406650" duration="22000" />
     </task>
     <servers />
   </component>
@@ -113,5 +115,6 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Regression_py$GitRepo.coverage" NAME="GitRepo Coverage Results" MODIFIED="1675386324719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PyTorchBase$GitRepo.coverage" NAME="GitRepo Coverage Results" MODIFIED="1675233066947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Regression_py$Regression.coverage" NAME="Regression Coverage Results" MODIFIED="1675641891104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
