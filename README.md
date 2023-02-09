@@ -6,4 +6,5 @@
 ## Documentation
 - **GitRepo.py** : Python test file for Git committing.
 - **Regression.py** : Python script for simple regression implementation.
+- **Classification.py** : Python script for simple classification implementation.
 
