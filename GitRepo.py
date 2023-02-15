@@ -3,5 +3,5 @@ def print_hi(name):
 
 
 if __name__ == '__main__':
-    print_hi('This is the second commit of this script!')
+    print_hi('This is the third commit of this script!')
     print(f'By Jevon in CETC_21')

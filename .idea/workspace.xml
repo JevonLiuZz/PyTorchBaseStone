@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bba8e6a5-80c0-4432-ae20-24764357eaa5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GitRepo.py" beforeDir="false" afterPath="$PROJECT_DIR$/GitRepo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,6 +124,10 @@
       <workItem from="1675988269517" duration="205000" />
       <workItem from="1676247762902" duration="149000" />
       <workItem from="1676333738898" duration="158000" />
+      <workItem from="1676334249689" duration="62000" />
+      <workItem from="1676335548955" duration="1160000" />
+      <workItem from="1676357250926" duration="11000" />
+      <workItem from="1676422755802" duration="1132000" />
     </task>
     <servers />
   </component>
@@ -133,7 +139,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
