@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bba8e6a5-80c0-4432-ae20-24764357eaa5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/GitRepo.py" beforeDir="false" afterPath="$PROJECT_DIR$/GitRepo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,6 +130,8 @@
       <workItem from="1676431656232" duration="3000" />
       <workItem from="1676506488240" duration="43000" />
       <workItem from="1676625663480" duration="27000" />
+      <workItem from="1676859403252" duration="755000" />
+      <workItem from="1676939512097" duration="26000" />
     </task>
     <servers />
   </component>
