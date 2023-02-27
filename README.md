@@ -3,6 +3,9 @@
 ## Project details
 **Name** : Jevon Liu  
 
+## Directory
+**Data** : Files to be made or downloaded.
+
 ## Documentation
 - **GitRepo.py** : Python script for Git committing.
 - **Regression.py** : Python script for simple regression implementation.
