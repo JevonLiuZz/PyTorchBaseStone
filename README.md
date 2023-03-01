@@ -7,10 +7,12 @@
 **Data** : Files to be made or downloaded.
 
 ## Documentation
+- **DataGenerate.py** : Python script for data generation.
 - **GitRepo.py** : Python script for Git committing.
 - **Regression.py** : Python script for simple regression implementation.
 - **Classification.py** : Python script for simple classification implementation.
 - **License.txt** : Declaration of license.
+
 
 ## Markdown grammar
 - **删除线** : ~~文本~~
