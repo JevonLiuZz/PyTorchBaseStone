@@ -5,6 +5,7 @@
 
 ## Directory
 **Data** : Files to be made or downloaded.
+**Model** : Saved models.
 
 ## Documentation
 - **DataGenerate.py** : Python script for data generation.
@@ -12,7 +13,6 @@
 - **Regression.py** : Python script for simple regression implementation.
 - **Classification.py** : Python script for simple classification implementation.
 - **License.txt** : Declaration of license.
-
 
 ## Markdown grammar
 - **删除线** : ~~文本~~
