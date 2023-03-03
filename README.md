@@ -4,8 +4,8 @@
 **Name** : Jevon Liu  
 
 ## Directory
-**Data** : Files to be made or downloaded.
-**Model** : Saved models.
+- **Data** : Files to be made or downloaded.
+- **Model** : Saved models.
 
 ## Documentation
 - **DataGenerate.py** : Python script for data generation.
