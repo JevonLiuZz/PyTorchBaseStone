@@ -5,7 +5,7 @@
 
 ## Directory
 - **Data** : Files to be made or downloaded.
-- **Model** : Saved models.
+- **Models** : Saved models.
 
 ## Documentation
 - **DataGenerate.py** : Python script for data generation.
