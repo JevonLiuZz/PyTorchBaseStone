@@ -6,6 +6,7 @@ import torch
 import torchvision
 from torch import nn
 from torch.utils import data
+from torch.utils.tensorboard import SummaryWriter
 
 
 class WorkFlowModel(nn.Module):
@@ -21,7 +22,7 @@ class WorkFlowModel(nn.Module):
         )
         self.flatten1st = nn.Sequential(
             nn.Flatten(),
-            nn.Linear(64*4*4, 64, bias=True),
+            nn.Linear(64 * 4 * 4, 64, bias=True),
         )
         self.outputs1st = nn.Sequential(
             nn.Linear(64, 10, bias=True),
@@ -36,6 +37,13 @@ class WorkFlowModel(nn.Module):
 
 class WorkFlowDataSet(data.Dataset):
     def __init__(self):
+        beta_data = torch.rand(1, 3, 64, 64)
+        beta_main_compose = torchvision.transforms.Compose([
+            torchvision.transforms.ToTensor(),
+            torchvision.transforms.Resize((32, 32))
+        ])
+        self.beta_data_processed = beta_main_compose(beta_data)
+
         pass
 
     def __getitem__(self, index):
@@ -46,7 +54,17 @@ class WorkFlowDataSet(data.Dataset):
 
 
 def main():
-    pass
+    str_beta_main = 'BetaMain Text'
+    epochs = 0
+    img_beta_main = torch.rand(1, 3, 64, 64)
+    value_beta_main = 0
+
+    writer = SummaryWriter(log_dir='./log/BetaMainLog')
+    writer.add_image('LogImg', img_tensor=img_beta_main, global_step=epochs)
+    writer.add_scalar('LogCurve', value_beta_main, global_step=epochs)
+    writer.add_text('LogText', str_beta_main, global_step=epochs)
+
+    writer.close()
 
 
 if __name__ == '__main__':
