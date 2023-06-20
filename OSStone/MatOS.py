@@ -37,6 +37,8 @@ VelCat = np.c_[leftVel, rightVel]
 AccCat = np.c_[leftAcc, rightAcc]
 
 dataRaw = np.c_[PosCat, VelCat, AccCat]
-
+row = dataRaw[256, :]
+print(row)
+oneCol = dataRaw[:, 0]
+print(oneCol.shape[0])
 print("**")
-
