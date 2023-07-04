@@ -5,6 +5,10 @@ import headers
 import torch
 
 # user code begin
+a = torch.rand(1, 1, 5)
+labelWindow = a[:, :, 3]
+print(a)
+print(labelWindow)
 
 stripStr = "  this is a string!  \n  "
 stripStrProcessed = stripStr.rstrip()
@@ -24,6 +28,7 @@ print(setSet)
 set1 = {1, 2, 4}
 set2 = {2, 4, 5}
 print(set1 ^ set2)
+
 
 
 
